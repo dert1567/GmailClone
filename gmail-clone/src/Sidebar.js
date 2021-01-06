@@ -1,7 +1,7 @@
-import { Button, IconButton } from '@material-ui/core'
 import React from 'react'
 import './Sidebar.css'
 
+import { Button, IconButton } from '@material-ui/core'
 import AddIcon from '@material-ui/icons/Add';
 import Sidebaroption from './Sidebaroption';
 import InboxIcon from '@material-ui/icons/Inbox';
@@ -35,6 +35,7 @@ function Sidebar() {
 
             <div className="sidebar__footer">
                 <div className="sidebar__footericons">
+                    
                     <IconButton>
                         <PersonIcon />
                     </IconButton>
