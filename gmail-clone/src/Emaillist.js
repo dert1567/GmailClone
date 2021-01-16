@@ -68,8 +68,16 @@ function Emaillist() {
                 <div className="emaillist__list">
                     <EmailRow
                     title="twitch"
-                    subject="hi hier ist daniel"
+                    subject=" hi hier ist daniel"
                     description="hallo hallo"
+                    time="10uhr" />
+                </div>
+
+                <div className="emaillist__list">
+                    <EmailRow
+                    title="twitch"
+                    subject="hi hier ist daniel"
+                    description=" hallo hallo wie geht es dir so den mir geht es gut"
                     time="10uhr" />
                 </div>
 
